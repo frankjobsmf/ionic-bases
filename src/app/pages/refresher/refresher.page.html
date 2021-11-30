@@ -1,9 +1,15 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>refresher</ion-title>
-  </ion-toolbar>
-</ion-header>
+<app-header title="Refresher" color="primary"></app-header>>
 
-<ion-content>
+<ion-content class="ion-padding">
+
+  <ion-refresher slot="fixed" (ionRefresh)="doRefresh($event)">
+    <ion-refresher-content></ion-refresher-content>
+  </ion-refresher>
+
+  <ion-list >
+    <ion-item *ngFor="let item of items; let i = index;" class="animate__animated animate__bounce">
+      <ion-label>Items {{ i + 1 }}</ion-label>
+    </ion-item>
+  </ion-list>
 
 </ion-content>

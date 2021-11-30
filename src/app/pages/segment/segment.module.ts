@@ -4,19 +4,21 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { RefresherPageRoutingModule } from './refresher-routing.module';
+import { SegmentPageRoutingModule } from './segment-routing.module';
 
-import { RefresherPage } from './refresher.page';
+import { SegmentPage } from './segment.page';
 import { ComponentsModule } from 'src/app/components/components.module';
+import { PipesModule } from '../../pipes/pipes.module';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    RefresherPageRoutingModule,
+    SegmentPageRoutingModule,
     ComponentsModule,
+    PipesModule,
   ],
-  declarations: [RefresherPage]
+  declarations: [SegmentPage]
 })
-export class RefresherPageModule {}
+export class SegmentPageModule {}
