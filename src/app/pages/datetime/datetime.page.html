@@ -1,0 +1,33 @@
+<app-header title="datetime" color="primary"></app-header>
+
+<ion-content>
+
+  <ion-list-header>
+    <ion-label>Datos de nacimiento</ion-label>
+  </ion-list-header>
+
+  <ion-item>
+    <ion-label>Fecha de Nacimiento</ion-label>
+    <ion-datetime 
+      [value]="fechaNaci.toISOString()" 
+      display-format="DD MM YYYY" 
+      (ionChange)="cambioFecha( $event )"
+    >
+    </ion-datetime>
+  </ion-item>
+  
+  
+  <ion-list-header>
+    <ion-label>Restricciones</ion-label>
+  </ion-list-header>
+
+  <ion-item>
+    <ion-label>Min y Max</ion-label>
+    <ion-datetime 
+      display-format="DD MM YYYY" 
+      min="2015-01-01" max="2025-12-31"
+    >
+    </ion-datetime>
+  </ion-item>
+
+</ion-content>

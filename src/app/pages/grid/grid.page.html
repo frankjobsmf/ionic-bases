@@ -1,0 +1,37 @@
+<app-header title="grid" color="primary"></app-header>
+
+<ion-content>
+
+  <ion-grid fixed="true">
+    <ion-row>
+      <ion-col size="6">6</ion-col>
+      <ion-col size="6">6</ion-col>
+    </ion-row>
+  
+    <ion-row>
+      <ion-col 
+        *ngFor="let item of data"
+        size="12"
+        size-lg="3"
+        size-md="4"
+        size-sm="6"
+        size-xs="12"
+  
+      >
+        <ion-card>
+          <img src="/assets/stan-lee.jpeg">
+        </ion-card> 
+  
+        <ion-card-header>
+          <ion-card-subtitle>Awesome Subtitle</ion-card-subtitle>
+          <ion-card-title>Awesome Title</ion-card-title>
+        </ion-card-header>
+  
+        <ion-card-content>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum eaque reprehenderit, architecto tempore beatae adipisci cumque quasi perferendis quam atque eius modi molestiae officiis, alias, quisquam voluptate tenetur. Minus, odit.
+        </ion-card-content>
+      </ion-col>
+    </ion-row>
+  
+  </ion-grid>
+</ion-content>

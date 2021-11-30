@@ -1,0 +1,92 @@
+[
+    {
+        "icon": "american-football-outline",
+        "name": "Action Sheet",
+        "redirectTo": "/action-sheet"
+    },
+    {
+        "icon": "alert-circle-outline",
+        "name": "Alert",
+        "redirectTo": "/alert"
+    },
+    {
+        "icon": "person-circle-outline",
+        "name": "Avatar",
+        "redirectTo": "/avatar"
+    },
+    {
+        "icon": "apps-outline",
+        "name": "Botones",
+        "redirectTo": "/botones"
+    },
+    {
+        "icon": "reader-outline",
+        "name": "Card",
+        "redirectTo": "/card"
+    },
+    {
+        "icon": "checkmark-circle-outline",
+        "name": "Check",
+        "redirectTo": "/check"
+    },
+    {
+        "icon": "calendar-outline",
+        "name": "Datetime",
+        "redirectTo": "/datetime"
+    },
+    {
+        "icon": "radio-button-on-outline",
+        "name": "fab",
+        "redirectTo": "/fab"
+    },
+    {
+        "icon": "grid-outline",
+        "name": "Grid",
+        "redirectTo": "/grid"
+    },
+    {
+        "icon": "sync-circle-outline",
+        "name": "Infinite",
+        "redirectTo": "/infinite"
+    },
+    {
+        "icon": "at-circle-outline",
+        "name": "input",
+        "redirectTo": "/input"
+    },
+    {
+        "icon": "list-outline",
+        "name": "list - sliding",
+        "redirectTo": "/list"
+    },
+    {
+        "icon": "reorder-three-outline",
+        "name": "list - reorder",
+        "redirectTo": "/list-reorder"
+    },
+    {
+        "icon": "reload-circle-outline",
+        "name": "loading",
+        "redirectTo": "/loading"
+    },
+    {
+        "icon": "albums-outline",
+        "name": "modal",
+        "redirectTo": "/modal"
+    },
+    {
+        "icon": "layers-outline",
+        "name": "popover",
+        "redirectTo": "/popover"
+    },
+    {
+        "icon": "timer-outline",
+        "name": "progress",
+        "redirectTo": "/progress"
+    },
+    {
+        "icon": "arrow-down-circle-outline",
+        "name": "refresher",
+        "redirectTo": "/refresher"
+    }
+]
